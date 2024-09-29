@@ -10,6 +10,11 @@ module.exports = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        black: "var(--black)",
+        onyx: "var(--onyx)",
+        timberwolf: "var(--timberwolf)",
+        gold: "var(--old-gold)",
+        green: "var(--myrtle-green)",
       },
     },
   },

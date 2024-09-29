@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from 'next/link'
+import Navbar from './components/navbar'
 import Landing from './components/landing'
 import About from './components/about'
 import Experience from './components/experience'
@@ -9,14 +10,9 @@ import Contact from './components/contact'
 export default function Home() {
   return (
     <div>
-      <nav>
-        <ul>
-          <li class="text-sky-400"><Link href="#about">About</Link></li>
-          <li><Link href="#experience">Experience</Link></li>
-          <li><Link href="#projects">Projects</Link></li>
-          <li><Link href="#contact">Contact</Link></li>
-        </ul>
-      </nav>
+      
+
+      <Navbar></Navbar>
 
       <Landing></Landing>
       <About></About>
