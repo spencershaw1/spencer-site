@@ -2,18 +2,11 @@
 import Link from 'next/link'
 import { useState } from 'react'
 
-{
-    /*  "sm:hidden" -> hidden on large - small screens
-    */
-}
-
 export default function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
 
     function toggleMenu() {
         setIsOpen( !isOpen );
-
-        console.log( isOpen );
     }
 
     return (
